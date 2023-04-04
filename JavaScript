@@ -1,0 +1,30 @@
+    <DOCTYPE HTML>
+        <html> 
+            <head>
+                <body>
+                    <script>
+                
+        
+                        class Retângulo{
+                            constructor(base, altura){
+                                this.A = altura;
+                                this.B = base;
+                            }
+                            
+                            calculaArea(){
+                                return (this.A * this.B);
+                            }
+                            calculaPerimetro(){
+                                return (2 * this.A + 2 * this.B);
+                            }
+                        }
+                            var Ret1 = new Retângulo(12, 20);
+                            document.write("A área é igual a " + Ret1.calculaArea() + "<br>");
+                            document.write("O perímetro é igual a " + Ret1.calculaPerimetro()+ "<br>");
+                            
+                            var Ret2 = new Retângulo(9, 15);
+                            document.write("A área do segundo retângulo é igual a " + Ret2.calculaArea() + "<br>");
+                            document.write("O perímetro é igual a " + Ret2.calculaPerimetro()+ "<br>");
+                                    </script>
+        </body>
+            </head>
